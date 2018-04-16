@@ -1,1 +1,2 @@
 print " Hai! Our first git trial"
+print " Hai"
