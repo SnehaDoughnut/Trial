@@ -1,4 +1,4 @@
-freeStyleJob(Job1)
+freeStyleJob('Job')
 {
 description("Groovy script for cloning ")
 scm 
