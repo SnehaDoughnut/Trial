@@ -1,4 +1,19 @@
-print " Hai! Our first git trial"
-print " Hai"
-print "Test"
-print "Test2"
+freeStyleJob(Job1)
+{
+description("Groovy script for cloning ")
+scm 
+{
+	git 
+	{
+		remote 
+		{
+			url(String url)
+		}
+	}
+}
+steps 
+	{
+        	shell('echo Cloning..')
+    	}
+}
+
