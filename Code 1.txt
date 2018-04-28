@@ -1,16 +1,16 @@
 freeStyleJob('Job')
 {
-description("Groovy script for cloning ")
-scm 
-{
-	git 
+	description("Groovy script for cloning ")
+	scm 
 	{
-		remote 
+		git 
 		{
-			url(String url)
+			remote 
+			{
+				url(String url)
+			}
 		}
 	}
-}
 steps 
 	{
         	shell('echo Cloning..')
