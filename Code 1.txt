@@ -7,7 +7,7 @@ freeStyleJob('Job')
 		{
 			remote 
 			{
-				url(String url)
+				url('https://github.com/SnehaDoughnut/Trial.git')
 			}
 		}
 	}
